@@ -13,7 +13,8 @@ Output: Prime or factors
 
 For x = 2 through N - 1  
   * if N mod x == 0  
-    * Return (x, N/x)  
+    * Return (x, N/x)
+
 return Prime  
 
 ## Better Brute Force Pseudocode
@@ -22,6 +23,7 @@ Output: prime or factors
 
 For x = 2 through floor(sqrt(N))  
   * if N mod x == 0  
-    * return (x, N/x)  
+    * return (x, N/x)
+
 return Prime
 
